@@ -9,8 +9,8 @@ int main() {
     scanf("%d",&idade);
     if (tempo >=1 && idade >= 18) {
         printf("Acesso autorizado.\n");
-    } else {
-        printf("Acesso não autorizado.\n");
+    }else {
+        printf("Acesso negado.\n");
     }
     return 0;
 }
